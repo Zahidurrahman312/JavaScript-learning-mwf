@@ -17,22 +17,31 @@ console.log("JavaScript connected!");
 
 // Aga calculator
 
-var userInput =prompt ("Enter your age");
+// var userInput =prompt ("Enter your age");
 
-var now = new Date();
+// var now = new Date();
 
-var dateBrith = new Date(userInput);
+// var dateBrith = new Date(userInput);
 
-var msTime = now.getTime();
+// var msTime = now.getTime();
 
-var msBrith = dateBrith.getTime();
+// var msBrith = dateBrith.getTime();
 
 var currentAge = msTime - msBrith;
 
-var year = Math.floor(currentAge/(1000 * 60 * 60 * 24 * 31 ));
+// var year = Math.floor(currentAge/(1000 * 60 * 60 * 24 * 31 ));
 
-alert(year)
+// alert(year)
+var week = ["sunday", "monday", "Tuesday", "wednesday", "Thursday", "Friday", "saturday"];
 
+// var now = new Date();
+
+// var days = now.getDay();
+
+// var today= week[days];
+
+
+// console.log(today);
 
 
 
