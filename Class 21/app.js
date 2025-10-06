@@ -114,3 +114,41 @@ introduceMe();*/
 //     alert("pakistan standard time zoon "+hour +": "+minute +" "+ sec );
 // }
 // telltime();
+
+// Increasing part
+for (var i = 1; i <= 5; i++) {
+  var line = "";
+  for (var j = 1; j <= i; j++) {
+    line += "*";
+  }
+  console.log(line);
+}
+
+// Decreasing part
+for (var i = 4; i >= 1; i--) {
+  var line = "";
+  for (var j = 1; j <= i; j++) {
+    line += "*";
+  }
+  console.log(line);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
